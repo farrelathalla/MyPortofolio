@@ -94,7 +94,7 @@ const Achievements = () => {
           </Button>
         ))}
       </div>
-      <div className="pt-36 flex justify-center items-center px-10 md:px-20 flex-col" id="contact">
+      <div className="pt-36 flex justify-center items-center flex-col" id="contact">
         <h1 className="text-white text-center font-bold text-3xl lg:text-5xl" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom"> Reach out to me <span className="text-[#e0b8ff]"> today </span> and let's discuss how I can help you <span className="text-[#e0b8ff]"> achieve </span> your goals </h1>
         <div className="flex gap-6 pt-10">

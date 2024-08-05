@@ -22,7 +22,7 @@ const Projects = () => {
                 className="absolute z-0 bottom-0 scale-110 opacity-60 md:opacity-40"
             />
             <div className="relative z-10">
-                <div className='flex justify-center gap-2 lg:gap-3 font-bold lg:text-5xl text-xl sm:text-3xl'>
+                <div className='flex justify-center gap-2 lg:gap-3 font-bold lg:text-5xl text-lg sm:text-2xl'>
                     <h1 className='text-white'> A small selection of </h1>
                     <h1 className='text-[#e0b8ff]'> recent projects </h1>
                 </div>
