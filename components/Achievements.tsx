@@ -9,7 +9,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@data";
 import { useEffect } from "react";
 import 'aos/dist/aos.css';
-import AOS from 'aos';
+import AOS from "aos";
 
 const Achievements = () => {
     useEffect(() => {
