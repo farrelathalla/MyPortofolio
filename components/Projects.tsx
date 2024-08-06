@@ -26,6 +26,7 @@ const Projects = () => {
                     <h1 className='text-white'> A small selection of <span className="text-[#e0b8ff]"> recent projects</span></h1>
                 </div>
                 <div className="relative z-20">
+                    {/* Projects are on seperate file */}
                     <ProjectList/>
                 </div>
             </div>
