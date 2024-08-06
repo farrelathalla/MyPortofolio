@@ -31,7 +31,7 @@ export const skills = [
         link: "",
     },
     {
-        title: "Problem Solving and Critcal Thinking",
+        title: "Problem Solving and Critical Thinking",
         description:
         "Ability to analyze issues and find effective and efficient solutions. Capability to think logically and critically to understand algorithms and data structures.",
         link: "",
@@ -61,29 +61,53 @@ export const words = [
     "Minat", "Bakat"
 ]
 
-export const infest = [
+export const projects = [
     {
-        iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"]
-    }
-]
-
-export const impact = [
+        id: 1,
+        webtitle: "infestitb2024.com",    
+        title: "INFEST 2024 - Front End Developer",
+        des: "The biggest Investment Festival held by KSEP ITB for Indonesia.",
+        img: "/p1.svg",
+        iconLists: ["/next.svg","/re.svg", "/tail.svg", "/ts.svg"],
+        link: "https://infestitb2024.com/",
+    },
     {
-        iconLists: ["/fig.svg"]
-    }
-]
-
-export const agro = [
+        id: 2,
+        webtitle:"figma.com",
+        title: "IMPACT 4.0 - UI/UX Designer",
+        des: "STEI Mathematics, Physics, and Informatics Competition 2024. Annual competition for senior high school students",
+        img: "/p2.svg",
+        iconLists: ["/fig.svg"],
+        link: "https://www.figma.com/design/pwyUrAQSQ9N4KA0yXd3GXE/IMPACT-4.0-UI%2FUX?node-id=0-1&t=1qMF5RtRZOQeSr2l-1",
+    },
     {
-        iconLists: ["/htm.svg","css.svg","js.svg","php.svg"]
-    }
-]
-
-export const hack = [
+        id: 3,
+        webtitle:"github.com",
+        title: "Agronomix - Fullstack Developer",
+        des: "One-Stop Hub for Seamless Agriculture Connections. PRD Project",
+        img: "/p3.svg",
+        iconLists: ["/htm.svg","css.svg","js.svg","php.svg"],
+        link: "https://github.com/farrelathalla/agronomix",
+    },
     {
-        iconLists: ["/fig.svg"]
-    }
-]
+        id: 4,
+        webtitle:"figma.com",
+        title: "BisaBisnis Mobile App - UI/UX Designer",
+        des: "UMKM App for Hackfest",
+        img: "/p4.svg",
+        iconLists: ["/fig.svg"],
+        link: "https://www.figma.com/proto/p4mRSM6dLfOTu7IcIcGHM1/Material-3-Design-Kit-(Community)?page-id=54708%3A25457&node-id=54708-25458&starting-point-node-id=54708%3A25458&t=hCDO6Qeorn8L1lar-1",
+    },
+    {
+        id: 5,
+        webtitle:"figma.com",
+        title: "STEI-K 23 Website - UI/UX Designer",
+        des: "STEI-K's 2023 Website for centered information about all STEI-K needs",
+        img: "/p5.svg",
+        iconLists: ["/fig.svg"],
+        link: "https://www.figma.com/design/dCgDXakki0L1YzsbC2v1XE/main-project?node-id=0-1&t=FTabRZxP5FmwpDe8-1",
+    },
+];
 
 export const workExperience = [
     {
