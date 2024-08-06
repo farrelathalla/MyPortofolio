@@ -5,4 +5,4 @@
 *, html {
 
   scroll-behavior: smooth !important;
-}
+} /* Added smooth scroll behaviour for better experience */
