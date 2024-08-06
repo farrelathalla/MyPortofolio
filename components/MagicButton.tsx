@@ -6,7 +6,7 @@ import React from "react";
  *
  *  change border radius to rounded-lg
  *  add margin of md:mt-10
- *  remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 
+ *  remove focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50  
  */
 const MagicButton = ({
   title,

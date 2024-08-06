@@ -10,7 +10,7 @@ const MinatBakat = () => {
             <div className="absolute inset-0 w-full h-full z-0 bg-slate-900 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
             <div className="relative z-20 flex justify-center lg:text-5xl text-center font-bold text-white text-2xl md:gap-1 lg:gap-2 pt-28 sm:pt-20 sm:text-3xl">
                 Here is some of my
-                {/* Added FlipWords effect to enhance experience */}
+                {/* Added FlipWords effect to enhance experience */} 
                 <FlipWords words={words} className="text-[#e0b8ff]" duration={1000}/>
             </div>
             <HoverEffect items={skills} className="overflow-hidden"/>

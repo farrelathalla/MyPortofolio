@@ -15,7 +15,7 @@ const Achievements = () => {
     useEffect(() => {
         AOS.init();
       }, [])
-      //Initialize AOS (Animation On Scroll)
+      //Initialize AOS (Animation On Scroll) 
   return (
     <section className="bg-black md:px-20 px-10 pb-20 overflow-hidden pt-10 md:pt-36">
         <div className='relative h-full w-full bg-black px-10 md:px-20 py-20 overflow-hidden flex flex-col items-center justify-center' id="achievements">
