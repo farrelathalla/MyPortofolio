@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const montserrat = Montserrat({ subsets: ["latin"] }); //Added Montserrat Font
-const inter = Inter({ subsets: ["latin"] });
+const montserrat = Montserrat({ subsets: ["latin"] }); //Added Montserrat Font 
 
 export const metadata: Metadata = {
   title: "Farrel Portofolio",
