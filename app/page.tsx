@@ -4,7 +4,7 @@ import Hero from "@components/Hero.tsx";
 import MinatBakat from "@components/MinatBakat";
 import Projects from "@components/Projects";
 import Achievements from "@components/Achievements";
-
+ 
 const Home = () => {
   return (
     <main className="overflow-x-hidden">
