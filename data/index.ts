@@ -127,14 +127,14 @@ export const workExperience = [
     {
       id: 3,
       title: "Graphic Design at INFEST 2024",
-      desc: "creates visual content to communicate the organization's brand and message. This role involves designing marketing materials, digital assets, and other creative projects to support various departments and enhance the organization's visual presence.",
+      desc: "Creates visual content to communicate the organization's brand and message. This role involves designing marketing materials, digital assets, and other creative projects to support various departments and enhance the organization's visual presence.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/infest.svg",
     },
     {
       id: 4,
       title: "Design at IMPACT 4.0",
-      desc: "creates visual content to communicate the organization's brand and message. This role involves designing marketing materials, digital assets, and other creative projects to support various departments and enhance the organization's visual presence.",
+      desc: "Creates visual content to communicate the organization's brand and message. This role involves designing marketing materials, digital assets, and other creative projects to support various departments and enhance the organization's visual presence.",
       className: "md:col-span-2",
       thumbnail: "/impact.png",
     },
