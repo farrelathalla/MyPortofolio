@@ -1,11 +1,10 @@
-"use client";
 import Image from "next/image";
 import Profil from "@public/profil.jpg"
 import { ReactTyped } from "react-typed";
 import { Spotlight } from "./ui/Spotlight";
 import Circle from "@public/circle.svg";
 
-const Hero = () => {
+const Hero = () => { 
   return (
     <section>
       <div className="md:h-screen h-auto relative w-full flex flex-col items-center justify-center overflow-hidden">
@@ -30,10 +29,10 @@ const Hero = () => {
           <Image
               src={Profil}
               alt="Profil"
-              className="z-20 md:w-[400px] w-[300px] rounded-full mx-auto mb-10 md:mb-0 shadow-[0_0px_100px_-35px_rgba(0,0,0,0.3)] shadow-white/75"
+              className="z-20 md:w-[400px] w-[300px] rounded-full mx-auto mb-10 md:mb-0 shadow-[0_0px_100px_-35px_rgba(0,0,0,0.3)] shadow-white/75" data-aos="fade-right"
               // Profile picture
           />
-          <div className="text-white md:text-left text-center">
+          <div className="text-white md:text-left text-center" data-aos="fade-left">
             <h3 className="font-semibold"> Hello Everyone! My name is </h3>
             <h1 className="font-bold text-2xl xl:text-5xl lg:text-3xl bg-gradient-to-br from-white to-[#e0b8ff] inline-block text-transparent bg-clip-text"> Farrel Athalla Putra </h1>
             <div className="flex gap-2 md:text-base font-bold text-xl xl:text-3xl mb-6 md:justify-start justify-center"><h2> I am a </h2>

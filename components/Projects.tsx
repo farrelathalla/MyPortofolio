@@ -22,10 +22,10 @@ const Projects = () => {
                 className="absolute z-0 bottom-0 scale-110 opacity-60 md:opacity-40"
             />
             <div className="relative z-10">
-                <div className='flex justify-center gap-2 lg:gap-3 font-bold lg:text-5xl text-3xl text-center'>
+                <div className='flex justify-center gap-2 lg:gap-3 font-bold lg:text-5xl text-3xl text-center' data-aos="zoom-out-down">
                     <h1 className='text-white'> A small selection of <span className="text-[#e0b8ff]"> recent projects</span></h1>
                 </div>
-                <div className="relative z-20">
+                <div className="relative z-20" data-aos="fade-up" data-aos-duration="3000"> 
                     {/* Projects are on seperate file */}
                     <ProjectList/>
                 </div>

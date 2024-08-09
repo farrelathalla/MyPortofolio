@@ -1,4 +1,3 @@
-"use client";
 import { SparklesCore } from "./ui/sparkles";
 import { Button } from "./ui/moving-borders";
 import { workExperience } from "@data";
@@ -7,18 +6,11 @@ import Image from "next/image";
 import MagicButton from "./MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@data";
-import { useEffect } from "react";
-import 'aos/dist/aos.css';
-import AOS from "aos";
 
 const Achievements = () => {
-    useEffect(() => {
-        AOS.init();
-      }, [])
-      //Initialize AOS (Animation On Scroll) 
   return (
     <section className="bg-black md:px-20 px-10 pb-20 overflow-hidden pt-10 md:pt-36">
-        <div className='relative h-full w-full bg-black px-10 md:px-20 py-20 overflow-hidden flex flex-col items-center justify-center' id="achievements">
+        <div className='relative h-full w-full bg-black px-10 md:px-20 py-20 overflow-hidden flex flex-col items-center justify-center' id="achievements" data-aos="zoom-in">
             <h1 className="md:text-7xl text-3xl lg:text-9xl font-bold text-center text-white relative z-20">
                 Achievements
             </h1>
@@ -65,7 +57,7 @@ const Achievements = () => {
             //   Random duration effects on the edges
             duration={Math.floor(Math.random() * 10000) + 10000}
             borderRadius="1.75rem"
-            style={{
+            style={{ 
               background: "rgb(4,7,29)",
               backgroundColor:
                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
@@ -73,7 +65,7 @@ const Achievements = () => {
               borderRadius: `calc(1.75rem* 0.96)`,
             }}
             // Remove bg-white dark:bg-slate-900
-            className="flex-1 text-white dark:text-white border-neutral-200 dark:border-slate-800"
+            className="flex-1 text-white dark:text-white border-neutral-200 dark:border-slate-800" data-aos="zoom-in-up"
           >
             <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
               <img
