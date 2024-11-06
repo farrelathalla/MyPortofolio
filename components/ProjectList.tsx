@@ -28,16 +28,19 @@ const ProjectList = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute lg:h-[30vh] h-[20vh]"
+                  className="z-10 absolute top-0"
                 />
               </div>
 
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
                 {item.title}
               </h1>
+              <h2 className="text-white font-semibold">
+                {item.role}
+              </h2>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
