@@ -112,6 +112,16 @@ export const projects = [
         iconLists: ["/fig.svg"],
         link: "https://paradewisok2024.com/",
     },
+    {
+        id: 6,
+        webtitle: "drive.com",    
+        title: "UI/UX Portfolio",
+        role: "",
+        des: "See through my UI/UX projects!",
+        img: "/por.png",
+        iconLists: ["/fig.svg"],
+        link: "https://drive.google.com/file/d/1CrUgiH-3Hp158nQ3WKCKg-XOsZPUXVFh/view?usp=sharing",
+    },
     // {
     //     id: 2,
     //     webtitle:"figma.com",
