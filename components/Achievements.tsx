@@ -96,7 +96,7 @@ const Achievements = () => {
                 position="right"
             />
             </a>
-            <a href="https://www.linkedin.com/in/farrel-athalla-095497271/" target="_blank">
+            <a href="https://www.linkedin.com/in/farrelathallaputra/" target="_blank">
             <MagicButton
                 title="Connect on LinkedIn"
                 icon={<FaLocationArrow />}
